@@ -1,0 +1,49 @@
+.pipe {
+  border: 2px dotted gold;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+}
+.ngforms {
+  border: 2px dotted blueviolet;
+  background-color: bisque;
+  margin-top: 1rem;
+}
+.event {
+  border: 2px dotted violet;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+.bind {
+  border: 2px dotted honeydew;
+  background-color: cyan;
+  margin-top: 1rem;
+}
+.route {
+  border: 2px dotted wheat;
+  background-color: tomato;
+  margin-top: 1rem;
+}
+.switch {
+  border: 2px dotted lightblue;
+  background-color: snow;
+  margin-top: 1rem;
+}
+.for {
+  border: 2px dotted teal;
+  background-color: skyblue;
+  margin-top: 1rem;
+}
+.if {
+  border: 2px dotted royalblue;
+  background-color: seagreen;
+  margin-top: 1rem;
+}
+.json {
+  border: 2px dotted turquoise;
+  background-color: pink;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}

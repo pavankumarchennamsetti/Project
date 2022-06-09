@@ -1,0 +1,20 @@
+<h1>ADDITION PAGE</h1>
+<div class="add">
+  <br />
+  <br />
+  <label>A:</label><br />
+  <input type="number" [(ngModel)]="numberA" />
+  <br />
+  <br />
+  <label>B:</label><br />
+  <input type="number" [(ngModel)]="numberB" />
+  <br />
+  <br />
+  <label>Addition:</label><br />
+  <input
+    type="number"
+    [(ngModel)]="numberC"
+    value="{{ numberA + numberB }}"
+    readonly
+  />
+</div>

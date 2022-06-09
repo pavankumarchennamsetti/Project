@@ -1,0 +1,17 @@
+<h1>SUBTRACTION PAGE</h1>
+
+<div class="add">
+  <label>A:</label><br />
+  <input type="number" [(ngModel)]="numberA" />
+  <br /><br />
+  <label>B:</label><br />
+  <input type="number" [(ngModel)]="numberB" />
+  <br /><br />
+  <label>Subtraction:</label><br />
+  <input
+    type="number"
+    [(ngModel)]="numberC"
+    value="{{ numberA - numberB }}"
+    readonly
+  />
+</div>

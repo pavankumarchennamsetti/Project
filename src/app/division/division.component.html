@@ -1,0 +1,14 @@
+<h1>DIVISION PAGE</h1>
+<div class="add">
+  <label>A:</label><br />
+  <input type="number" [(ngModel)]="numberA" /><br /><br />
+  <label>B:</label><br />
+  <input type="number" [(ngModel)]="numberB" min="1" /><br /><br />
+  <label>DIVISION:</label><br />
+  <input
+    type="number"
+    [(ngModel)]="numberC"
+    value="{{ numberA / numberB }}"
+    readonly
+  />
+</div>
